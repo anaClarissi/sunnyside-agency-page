@@ -1,0 +1,18 @@
+:root {
+    --red-01: #fe7867;
+    --yellow-01: #fad400;
+    --green-01: #25564b;
+    --green-02: #458c7d;
+    --blue-01: #19536b;
+
+    --grey-01: #23303e;
+    --grey-02: #5a636c;
+    --grey-03: #818498;
+    --grey-04: #a7abae;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Barlow';
+    font-size: 1.125rem;
+}
