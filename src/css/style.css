@@ -238,3 +238,75 @@ body {
 #principal-content .card:nth-child(4) .card-text {
     color: var(--blue-01);
 }
+
+
+
+/* CLIENTS */
+
+#clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 3em 1em;
+}
+
+#clients h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 0.9rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: var(--grey-04);
+}
+
+#clients .cards-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+#clients .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+    padding: 2em 0.25em;
+    border: none;
+}
+
+#clients .client-photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+#clients .card-text {
+    font-size: 1.125rem;
+    color: var(--grey-02);
+}
+
+#clients .client-data {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+#clients .client-name {
+    font-family: 'Fraunces', serif;
+    font-size: 1.15rem;
+    font-weight: 900;
+    color: var(--grey-01);
+    margin: 0;
+}
+
+#clients .client-job {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--grey-04);
+    margin: 0;
+}
