@@ -310,3 +310,18 @@ body {
     color: var(--grey-04);
     margin: 0;
 }
+
+
+
+/* GALLERY */
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#gallery img {
+    object-fit: cover;
+    width: 100%;
+}
