@@ -3,6 +3,7 @@
     --yellow-01: #fad400;
     --green-01: #25564b;
     --green-02: #458c7d;
+    --green-03: #90D4C5;
     --blue-01: #19536b;
 
     --grey-01: #23303e;
@@ -324,4 +325,37 @@ body {
 #gallery img {
     object-fit: cover;
     width: 100%;
+}
+
+
+
+/* FOOTER */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    padding: 3em 1em;
+    background-color: var(--green-03);
+}
+
+#footer img {
+    width: 100%;
+}
+
+#footer .navbar-nav {
+    flex-direction: row;
+}
+
+#footer .navbar-nav .nav-link {
+    color: var(--green-01);
+}
+
+#footer .navbar-nav .nav-link:hover {
+    color: var(--white);
+}
+
+#footer i {
+    font-size: 1.5rem;
 }
